@@ -12,7 +12,7 @@ case "$1" in
         CMD="kill -QUIT"
     ;;
     *)
-        echo "Usage: td.sh {jstack|signal} <pid> <number of dumps> <interval (seconds)>"
+        echo "Usage:::: td.sh {jstack|signal} <pid> <number of dumps> <interval (seconds)>"
         exit 1;
 esac
  
